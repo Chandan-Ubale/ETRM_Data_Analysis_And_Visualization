@@ -22,7 +22,7 @@ This project demonstrates end-to-end **data analysis and visualization** workflo
 
 ## Technologies Used
 
-* **Python 3.x**
+* **Python 3.13.3**
 * **Pandas** – data manipulation and analysis
 * **Matplotlib / Seaborn** – visualizations
 * **NumPy** – numerical computations
