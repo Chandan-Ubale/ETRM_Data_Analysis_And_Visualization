@@ -14,11 +14,18 @@ This project demonstrates end-to-end **data analysis and visualization** workflo
 * **Exploratory Data Analysis (EDA):**
 
   * Average price per commodity.
+  * average price per commodity grouped by currency
   * Trade volume comparisons.
   * Distribution and trend analysis.
-* **Visualization:**
+* **Visualizations:**
 
-  * Heatmaps, bar charts, and trend plots to highlight insights.
+  * Bar Chart – Total Trade Volume by Trade Type  
+  * Pie Chart – Distribution of Trades by Currency  
+  * Line Chart – Average Price Trend by Delivery Start Date  
+  * Histogram – Distribution of Notional Values  
+  * Heatmap – Commodity vs. Trade Type Counts  
+    *(used TradeType instead of Trader, to show which commodities are mostly bought vs. sold)*  
+
 
 ## Technologies Used
 
@@ -33,7 +40,10 @@ This project demonstrates end-to-end **data analysis and visualization** workflo
 ```
 ├── DataAnalysisAndVisualization.ipynb   # Main notebook containing analysis and visualizations
 ├── data/                                # Folder containing raw datasets (CSV, JSON, Excel, TXT, HTML, XML)
+├── ETRM Data Analysis with Pandas & Visualization-Insights.pdf   # Insights report
 └── README.md                            # Project documentation
+
+
 ```
 
 ## How to Run
